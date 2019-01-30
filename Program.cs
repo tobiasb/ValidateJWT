@@ -2,10 +2,12 @@
 using System;
 using System.IdentityModel.Tokens.Jwt;
 
-namespace ConsoleApp2
+namespace ValidateJWT
 {
     internal static class Program
     {
+        // Inspired by https://developer.okta.com/code/dotnet/jwt-validation
+
         private static void Main(string[] args)
         {
             const string accessToken = "<your JWT>";
